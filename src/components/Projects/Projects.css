@@ -1,0 +1,63 @@
+ 
+Section {
+    padding: 100px 0;
+    display: block;
+}
+.services   {
+    color:#fff;
+    background: #111;
+}
+.services .title::before{
+    background: #fff;
+}
+.services .title::after{
+    background: #111;
+    content: "From Which I Learned A Lot";
+}
+.services .servContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.services .servContent .card{
+    width: calc(30% - 60px);
+    background: #222;
+    text-align: center;
+    border-radius: 5px;
+    padding: 70px 25px;
+    margin:  auto;  
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .servContent .card:hover{
+    background: crimson;
+}
+.services .servContent .card .box{
+    transition: all 0.5s ease;
+}
+.services .servContent .card:hover .box{
+    transform: scale(1.10);
+}
+.services .servContent .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .servContent .card:hover i{
+    color: #fff;
+}
+.services .servContent .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+@media (max-width: 947px){
+
+    .services .servContent .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+}

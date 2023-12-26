@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Poppins',sans-serif;
+    
+   
+}
+
+body{
+ background:#fff;
+ color: black;
+ overflow: hidden;
+ overflow-y: scroll;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding: 100px 0;
+}
+div {
+    display: block;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}   
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.about, .services, .skills, .teams, .contact, footer{
+    font-family: 'Poppins', sans-serif;
+}
